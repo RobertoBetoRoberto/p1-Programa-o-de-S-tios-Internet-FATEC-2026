@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: #a4b1aa;
+}
+
+.entrada{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrada input{
+    padding: 20px;
+    margin: 15px;
+    border-radius: 35px;
+    color: #072916;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-size: 20px;
+    width: 290px;
+    border: solid #ffffff 2px ;
+}
+.entrada button{
+    padding: 20px;
+    border-radius: 35px;
+    background-color: #53f99e;
+    border: solid #53f99e;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 35%;
+}
+
+.galeria img{
+    width: 300px;
+}
+
+.pokemon-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #9d41ab;
+    border-right: solid #3c0345 5px;
+    border-bottom: solid #3c0345 5px;
+    border-radius: 20px;
+}
+
+.pokemon-info{
+    padding: 15px;
+}
+.pokemon-info p{
+    background-color: #ce6edd;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-family: 'Courier New', 'Courier', monospace;
+}
