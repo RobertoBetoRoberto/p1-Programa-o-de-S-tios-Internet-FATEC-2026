@@ -34,6 +34,15 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
+.entrada button:hover{
+    padding: 20px;
+    border-radius: 35px;
+    background-color: #206b42;
+    border: solid #206b42;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 .galeria{
     display: flex;
@@ -56,6 +65,15 @@ body{
     border-bottom: solid #3c0345 5px;
     border-radius: 20px;
 }
+.pokemon-card h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-style: bolder;
+    background-color: #8a029f;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
 
 .pokemon-info{
     padding: 15px;
@@ -65,4 +83,11 @@ body{
     border-radius: 10px;
     padding: 0 10px;
     font-family: 'Courier New', 'Courier', monospace;
+}
+
+.erro{
+    color: #fa0000;
+    font-size: 45px;
+    font-family: 'Courier New', 'Courier', monospace;
+    font-weight: bold;
 }
